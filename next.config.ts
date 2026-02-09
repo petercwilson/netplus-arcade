@@ -3,6 +3,7 @@ import type {NextConfig} from 'next';
 const nextConfig: NextConfig = {
   output: 'export',
   basePath: '/netplus-arcade',
+  assetPrefix: '/netplus-arcade',
   typescript: {
     ignoreBuildErrors: true,
   },
