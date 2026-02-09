@@ -1,4 +1,4 @@
-# NetPlus Arcade
+https://petercwilson.github.io/netplus-arcade/# NetPlus Arcade
 
 NetPlus Arcade is a gamified learning platform designed to help users master CompTIA Network+ concepts in a fun and interactive way. Styled with a retro 80's arcade theme, this application provides various tools to make studying for your certification an engaging experience.
 
