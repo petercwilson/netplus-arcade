@@ -42,7 +42,7 @@ export default function FlashcardsPage() {
 
   return (
     <div className="flex flex-col items-center justify-center w-full">
-      <h1 className="text-3xl font-bold font-headline mb-8 text-primary">
+      <h1 className="text-3xl font-bold font-headline mb-8 text-primary text-shadow-primary">
         Flashcards
       </h1>
 

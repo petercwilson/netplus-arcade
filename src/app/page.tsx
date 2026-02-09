@@ -42,7 +42,7 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center">
       <div className="text-center mb-12">
-        <h1 className="text-4xl md:text-5xl font-bold font-headline tracking-tighter text-primary mb-2">
+        <h1 className="text-4xl md:text-5xl font-bold font-headline tracking-tighter text-primary mb-2 text-shadow-primary">
           Welcome to NetPlus Arcade
         </h1>
         <p className="text-lg text-muted-foreground max-w-2xl mx-auto">

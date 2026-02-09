@@ -53,7 +53,7 @@ export default function QuizzesPage() {
       <div className="flex flex-col items-center justify-center w-full max-w-2xl mx-auto">
         <Card className="w-full text-center">
           <CardHeader>
-            <CardTitle className="text-3xl font-headline text-primary">Quiz Complete!</CardTitle>
+            <CardTitle className="text-3xl font-headline text-primary text-shadow-primary">Quiz Complete!</CardTitle>
           </CardHeader>
           <CardContent>
             <p className="text-2xl mb-4">
@@ -74,7 +74,7 @@ export default function QuizzesPage() {
 
   return (
     <div className="w-full max-w-3xl mx-auto">
-      <h1 className="text-3xl font-bold font-headline mb-2 text-primary text-center">
+      <h1 className="text-3xl font-bold font-headline mb-2 text-primary text-center text-shadow-primary">
         Scenario Quiz
       </h1>
       <p className="text-center text-muted-foreground mb-8">Question {currentQuestionIndex + 1} of {quizzes.length}</p>
@@ -100,7 +100,7 @@ export default function QuizzesPage() {
                   size="lg"
                   className={cn(
                     "h-auto justify-start text-left whitespace-normal py-4 text-base",
-                    answerStatus !== 'unanswered' && isCorrect && 'bg-green-500/20 border-green-500 text-foreground hover:bg-green-500/30',
+                    answerStatus !== 'unanswered' && isCorrect && 'bg-primary/20 border-primary text-foreground hover:bg-primary/30',
                     isSelected && answerStatus === 'incorrect' && 'bg-accent/20 border-accent text-foreground hover:bg-accent/30',
                   )}
                   onClick={() => handleAnswerSelect(option)}
@@ -115,12 +115,12 @@ export default function QuizzesPage() {
           {answerStatus !== 'unanswered' && (
             <Card className={cn(
               "mt-6 p-4",
-              answerStatus === 'correct' ? 'bg-green-500/10 border-green-500/50' : 'bg-accent/10 border-accent/50'
+              answerStatus === 'correct' ? 'bg-primary/10 border-primary/50' : 'bg-accent/10 border-accent/50'
             )}>
               <div className="flex items-start gap-4">
-                {answerStatus === 'correct' ? <CheckCircle className="h-8 w-8 text-green-500 mt-1" /> : <XCircle className="h-8 w-8 text-accent mt-1" />}
+                {answerStatus === 'correct' ? <CheckCircle className="h-8 w-8 text-primary mt-1" /> : <XCircle className="h-8 w-8 text-accent mt-1" />}
                 <div>
-                  <h3 className={cn("text-lg font-bold", answerStatus === 'correct' ? 'text-green-400' : 'text-accent')}>
+                  <h3 className={cn("text-lg font-bold", answerStatus === 'correct' ? 'text-primary' : 'text-accent')}>
                     {answerStatus === 'correct' ? 'Correct!' : 'Incorrect'}
                   </h3>
                   <p className="text-muted-foreground">{currentQuestion.explanation}</p>

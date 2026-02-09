@@ -25,7 +25,7 @@ export default function GlossaryPage() {
 
   return (
     <div className="w-full max-w-4xl mx-auto">
-      <h1 className="text-3xl font-bold font-headline mb-8 text-primary text-center">
+      <h1 className="text-3xl font-bold font-headline mb-8 text-primary text-center text-shadow-primary">
         Glossary
       </h1>
       <div className="relative mb-8">

@@ -4,48 +4,48 @@
 
 @layer base {
   :root {
-    --background: 0 0% 20%;
+    --background: 240 10% 4%;
     --foreground: 0 0% 98%;
-    --card: 0 0% 15%;
+    --card: 240 10% 10%;
     --card-foreground: 0 0% 98%;
-    --popover: 0 0% 15%;
+    --popover: 240 10% 10%;
     --popover-foreground: 0 0% 98%;
-    --primary: 207 100% 61%;
+    --primary: 327 100% 54%;
     --primary-foreground: 0 0% 9%;
-    --secondary: 0 0% 25%;
+    --secondary: 240 10% 15%;
     --secondary-foreground: 0 0% 98%;
-    --muted: 0 0% 25%;
+    --muted: 240 10% 15%;
     --muted-foreground: 0 0% 63.9%;
-    --accent: 3 100% 60%;
-    --accent-foreground: 0 0% 98%;
-    --destructive: 3 100% 60%;
+    --accent: 187 100% 50%;
+    --accent-foreground: 0 0% 9%;
+    --destructive: 53 100% 50%;
     --destructive-foreground: 0 0% 9%;
-    --border: 0 0% 30%;
-    --input: 0 0% 30%;
-    --ring: 207 100% 61%;
-    --radius: 0.5rem;
+    --border: 240 10% 20%;
+    --input: 240 10% 20%;
+    --ring: 327 100% 54%;
+    --radius: 0.1rem;
   }
 
   .dark {
-    --background: 0 0% 20%;
+    --background: 240 10% 4%;
     --foreground: 0 0% 98%;
-    --card: 0 0% 15%;
+    --card: 240 10% 10%;
     --card-foreground: 0 0% 98%;
-    --popover: 0 0% 15%;
+    --popover: 240 10% 10%;
     --popover-foreground: 0 0% 98%;
-    --primary: 207 100% 61%;
+    --primary: 327 100% 54%;
     --primary-foreground: 0 0% 9%;
-    --secondary: 0 0% 25%;
+    --secondary: 240 10% 15%;
     --secondary-foreground: 0 0% 98%;
-    --muted: 0 0% 25%;
+    --muted: 240 10% 15%;
     --muted-foreground: 0 0% 63.9%;
-    --accent: 3 100% 60%;
-    --accent-foreground: 0 0% 98%;
-    --destructive: 3 100% 60%;
+    --accent: 187 100% 50%;
+    --accent-foreground: 0 0% 9%;
+    --destructive: 53 100% 50%;
     --destructive-foreground: 0 0% 9%;
-    --border: 0 0% 30%;
-    --input: 0 0% 30%;
-    --ring: 207 100% 61%;
+    --border: 240 10% 20%;
+    --input: 240 10% 20%;
+    --ring: 327 100% 54%;
   }
 }
 
@@ -71,5 +71,8 @@
   .backface-hidden {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+  }
+  .text-shadow-primary {
+    text-shadow: 0 0 5px hsl(var(--primary) / 0.7), 0 0 10px hsl(var(--primary) / 0.5);
   }
 }

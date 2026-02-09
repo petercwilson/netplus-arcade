@@ -11,7 +11,7 @@ export default function ProgressPage() {
 
   return (
     <div className="w-full max-w-4xl mx-auto">
-      <h1 className="text-3xl font-bold font-headline mb-4 text-primary text-center">
+      <h1 className="text-3xl font-bold font-headline mb-4 text-primary text-center text-shadow-primary">
         Your Progress
       </h1>
       <p className="text-center text-muted-foreground mb-8 text-lg">
